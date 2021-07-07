@@ -40,3 +40,22 @@ footer{
     text-align: center;
     font-family: 'Alegreya Sans', sans-serif;
 }
+
+
+.contenedor-detalle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.header-grid-detalle{
+    grid-column: 2 / 3;
+    text-align: center;
+    letter-spacing: 0.2rem;
+
+}
+
+.contenido-diag-grid{
+    grid-column: 1;
+    grid-row: 2 / 3;
+}
