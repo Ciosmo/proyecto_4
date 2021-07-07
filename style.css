@@ -22,5 +22,20 @@ footer{
 }
 .carousel-inner img{
     width: 100%;     
-    height: 570px;   
+    height: 970px;   
+    margin: auto;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-carousel{
+    grid-column:  1/4;
+    grid-row: 2;
+}
+
+.introduccion{
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
 }
