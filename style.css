@@ -74,3 +74,36 @@ footer{
     grid-column:  1 / 3 ;
     grid-row: 2;
 }
+
+.estilo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+label.error{
+    margin-top: 0.625em;
+    color: red;
+
+}
+#formulario{
+    width: 80em;
+    display: inline-block;
+    background-color: #F1F1F1;
+    font-style: italic;
+    border-radius: 0.625em;
+    padding-left: 0.625em;
+    padding-top: 0.625em;
+}
+#boton{
+    margin: 1em;
+}
+#comentario{
+    height: 6.25em;
+    width: 79em;
+    resize: none;
+}
+#caja{
+    margin-top: 1.0em;
+    display: flex;
+    flex-direction: column;
+}
