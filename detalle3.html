@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Página principal</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Página principal</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="form_mecanico.html">Agendar hora</a>
@@ -39,23 +39,20 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
+                                Categorias
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="categoria.html">Mecanicos</a></li>
+                                <li><a class="dropdown-item" href="#">Diagnosticos</a></li>
                             </ul>
                         </li>
+    
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="login.html">Ingresar</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Perfil
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -72,7 +69,6 @@
             </div>
         </nav>
     </header>
-
     <div class="contenedor-detalle">
         <div class="foto-diagnostico">
             <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -107,16 +103,22 @@
                 </button>
             </div>
         </div>
-        <div class="parrafo-contenido">
-            Nombre del mecanico: XXX-XXX-XXX <br>
-            Diagnostico vehicular: XXX | XXX <br>
-            Fecha de ingreso: 00/00/0000 <br>
-            Fecha de salida: 00/00/0000 <br>
-            Materiales usados: XXX XXX XXX <br>
-            Precio: $$$$$ <br>
-            Lista de materiales cambiados: XXXXX <br>
-            Categoria de reparacion: XXXX <br>
+    <div class="parrafo-contenido">
+        <div class="card">
+            <img src="resources/img/logo_mecanico.png" alt="Avatar"
+                style="width: 60px; height: 100%; max-width: 100%; object-fit: cover; margin-left: 3em;">
+            <div class="container">
+                <h4><b>Alfonso F.</b></h4>
+                <p>Uno de nuestros empleados con mayor antiguedad en la empresa, su etica de trabajo es excelente.</p>
+                <p>Precio:</p>
+                <p>Fecha de ingreso:</p>
+                <p>Fecha de salida:</p>
+                <p>Gasto total en materiales:</p>
+                <p>Garantia:</p>
+                <p>Lista de materiales:</p>
+            </div>
         </div>
+    </div>
     </div>
 
 
