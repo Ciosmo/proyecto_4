@@ -116,7 +116,8 @@
                             email: true
                         },
                         comentario: {
-                            required: true
+                            required: true,
+                            minlength: 5
                         },
                         telefono: {
                             required: true,
@@ -140,15 +141,18 @@
                             email: "Ingrese un email veridico"
                         },
                         comentario: {
-                            required: "Necesitamos una descripción de su problema"
+                            required: "Necesitamos una descripción de su problema",
+                            minlength: "Ingrese más de 5 caracteres para describir su problema porfavor"
                         },
                         telefono: {
                             required: "Este campo debe de ser completado correctamente",
                             number: "Ingrese un numero, no letras",
-                            minlength: "Ingrese al menos 9 numeros"
+                            minlength: "Ingrese al menos 9 numeros",
+                            maxlength: "No más de 10 digitos"
                         },
                         fecha: {
-                            required: "Ingrese una fecha para proceder a agendar"
+                            required: "Ingrese una fecha para proceder a agendar",
+                            date: "Solo fecha porfavor"
                         }
                     }
                 });
