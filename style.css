@@ -85,6 +85,7 @@ footer{
 }
 label.error{
     margin-top: 0.625em;
+    font-weight: bold;
     color: red;
 
 }
