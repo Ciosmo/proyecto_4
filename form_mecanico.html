@@ -114,6 +114,7 @@
                     rules: {
                         nombre: {
                             required: true,
+                            minlength: 2,
                             maxlength: 15
                         },
                         email: {
@@ -137,6 +138,7 @@
                     messages: {
                         nombre: {
                             required: "Ingrese su nombre porfavor",
+                            minlength: "Como minimo más de 2 caracteres",
                             maxlength: "Su nombre es demasiado largo",
                         },
                         email: {
